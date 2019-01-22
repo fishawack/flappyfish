@@ -5,6 +5,12 @@
 	    "root": "_Output",
 	    "repo": "bespoke/flappyfish",
 	    "electron": false,
+	    "content": [
+            {
+                "ftps": "ftp-fishawack.egnyte.com",
+                "location": "Shared/FW/Knutsford/Digital/Auto-Content/flappyfish/"
+            }
+        ],
 	    "modernizr": [
 	        "flexbox",
 	        "csscalc"

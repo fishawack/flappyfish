@@ -1,6 +1,6 @@
 <template>
     <div>
-        Hello
+        <GIcon class="bird icon--large" name="bird"/>
     </div>
 </template>
 
