@@ -3,7 +3,7 @@
 	    "title": "Vue",
 	    "googleTrackingID": null,
 	    "root": "_Output",
-	    "repo": "boilerplate/boilerplate-vue",
+	    "repo": "bespoke/flappyfish",
 	    "electron": false,
 	    "modernizr": [
 	        "flexbox",
