@@ -1,0 +1,22 @@
+{
+    "attributes": {
+	    "title": "Vue",
+	    "googleTrackingID": null,
+	    "root": "_Output",
+	    "repo": "boilerplate/boilerplate-vue",
+	    "electron": false,
+	    "modernizr": [
+	        "flexbox",
+	        "csscalc"
+	    ],
+	    "uncss": [
+	        "<%= root %>/*.html",
+            ".tmp/vue/**/*.vue"
+	    ],
+	    "template": {},
+	    "toggle": {}
+	},
+	"content": {
+		
+	}
+}

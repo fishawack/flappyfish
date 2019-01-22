@@ -1,0 +1,34 @@
+{
+  "name": "flappyfish",
+  "version": "1.0.0",
+  "vars": {
+    "config": "--prefix node_modules/@fishawack/config-grunt/"
+  },
+  "scripts": {
+    "start": "npm start $npm_package_vars_config",
+    "setup": "npm install --no-save && npm run content",
+    "deploy": "npm run deploy $npm_package_vars_config",
+    "deploy-s": "npm run deploy-s $npm_package_vars_config",
+    "production": "npm run production $npm_package_vars_config",
+    "content": "npm run content $npm_package_vars_config",
+    "test": "npm test $npm_package_vars_config"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fishawack/config-grunt": "4.1.2"
+  },
+  "dependencies": {
+    "breakpoint-sass": "2.7.1",
+    "es6-promise": "4.2.5",
+    "fastclick": "1.0.6",
+    "@fishawack/lab-d3": "2.1.3",
+    "@fishawack/lab-ui": "9.0.0",
+    "normalize-scss": "7.0.0",
+    "vue": "2.5.17",
+    "vue-router": "3.0.1",
+    "vue2-filters": "0.3.0",
+    "vuex": "3.0.1",
+    "vuex-persistedstate": "2.5.4"
+  }
+}
