@@ -23,22 +23,24 @@
 }
 
 @import "lab-ui/_icon.scss";
+@import "lab-ui/_modal.scss";
+@import "lab-ui/_button.scss";
+@import "lab-ui/_typography.scss";
+@import "lab-ui/_utilities.scss";
 
-html, body{
+@import "components/_modal.scss";
+@import "components/_character.scss";
+@import "components/_background.scss";
+
+html, body, main, .background{
 	width: 100%;
 	height: 100%;
 }
 
-body{
-	background-color: lightblue;
-	background-image: resolve('background.svg');
-	background-repeat: repeat-x;
-	background-size: auto 100%;
+html{
+	overflow: hidden;
 }
 
-.bird{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+*{
+	user-select: none;
 }

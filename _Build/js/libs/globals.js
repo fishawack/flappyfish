@@ -3,18 +3,20 @@
     /* istanbul ignore next */
     if ( typeof define === 'function' && define.amd ) {
         /* istanbul ignore next */
-        define('vue', factory);
+        define(factory);
     } else if ( typeof exports === 'object' ) {
-        module.exports = factory(require('vue').default);
+        module.exports = factory();
     } else {
         /* istanbul ignore next */
-        root.Filters = factory(root.Vue);
+        root.Filters = factory();
     }
     /* istanbul ignore next */
-})(window, function (Vue) {
+})(window, function () {
     "use strict";
 
-    Vue.filter('toFixed', function (value, decimals) {
-        return value.toFixed(decimals);
-    });
+    return {
+        GRAVITY: 0.002,
+        FLAP: 2.5,
+        FLAPMAX: 3.5
+    };
 });
