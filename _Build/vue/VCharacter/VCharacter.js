@@ -13,11 +13,11 @@ module.exports = {
 	},
 
 	methods: {
-		update(fps){
-			this.gravity += GLOBAL.GRAVITY * fps;
+		update(delta){
+			this.gravity += GLOBAL.GRAVITY * delta;
 			this.y += this.gravity;
 		},
-		start(){
+		reset(){
 			this.gravity = 0;
 			this.y = 50;
 		},

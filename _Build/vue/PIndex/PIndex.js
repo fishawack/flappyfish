@@ -1,5 +1,7 @@
 "use strict";
 
+import GLOBAL from 'libs/globals.js';
+
 var STATES = Object.freeze({
 	"WAIT": 1,
 	"PLAYING": 2,
@@ -12,7 +14,7 @@ module.exports = {
 	data(){
 		return {
 			last: Date.now(),
-			fps: 0,
+			delta: 0,
 			state: STATES.WAIT,
 			progress: 0,
 			score: 0
@@ -34,11 +36,12 @@ module.exports = {
 	methods: {
 		update(){
 			if(this.state === STATES.PLAYING){
-				this.progress += 0.015 * this.fps;
+				this.progress += GLOBAL.BGSPEED * this.delta;
 
-				this.score += 0.0001 * this.fps;
+				this.score += 1 * this.delta;
 
-				this.$refs.character.update(this.fps);
+				this.$refs.character.update(this.delta);
+				this.$refs.obstacle.update(this.delta);
 
 				if(this.$refs.character.y > 100){
 					this.state = STATES.RESULT;
@@ -47,29 +50,38 @@ module.exports = {
 		},
 		step(){
 			var now = Date.now();
-			var delta = (now - this.last) / 1000;
+			this.delta = (now - this.last) / 1000;
 			this.last = now;
-			this.fps = 1 / delta;
 
 			this.update();
 		    
 		    window.requestAnimationFrame(this.step);
 		},
 		start(){
+			this.state = STATES.PLAYING;
+		},
+		reset(){
 			this.score = 0;
 			this.progress = 0;
 
-			this.$refs.character.start();
+			this.$refs.character.reset();
 
-			this.state = STATES.PLAYING;
+			this.state = STATES.WAIT;
 		}
 	},
 
 	mounted(){
 		window.requestAnimationFrame(this.step);
+
+		window.addEventListener('click', (e) => {
+			if(this.state === STATES.WAIT){
+				this.state = STATES.PLAYING;
+			}
+		});
 	},
 
 	components: {
-		VCharacter: require('../VCharacter/VCharacter.vue').default
+		VCharacter: require('../VCharacter/VCharacter.vue').default,
+		VObstacle: require('../VObstacle/VObstacle.vue').default
 	}
 };

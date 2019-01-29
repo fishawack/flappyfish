@@ -15,8 +15,10 @@
     "use strict";
 
     return {
-        GRAVITY: 0.002,
-        FLAP: 2.5,
-        FLAPMAX: 3.5
+        GRAVITY: 0,//5,
+        FLAP: 0,//2,
+        FLAPMAX: 3.5,
+        BGSPEED: 100,
+        SPEED: 40
     };
 });

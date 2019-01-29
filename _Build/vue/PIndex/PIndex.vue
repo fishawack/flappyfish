@@ -2,11 +2,13 @@
     <div :style="{'background-position-x': -progress + 'px'}" class="background">
         <VCharacter ref="character" />
 
-		<div v-if="!playing" class="modal active">
+        <VObstacle ref="obstacle"/>
+
+		<div v-if="result" class="modal active">
 			<div class="modal__container">
 			    <div class="modal__box">
-			    	<h2 v-if="result">Score:<span>{{score | toFixed('0')}}</span></h2>
-			        <button v-on:click="start" class="button">Start</button>
+			    	<h2>Score:<span>{{score | toFixed('0')}}</span></h2>
+			        <button v-on:click.stop="reset" class="button">Play Again</button>
 			    </div>
 		    </div>
 		</div>
