@@ -1,8 +1,6 @@
 <template>
-    <div :style="{'background-position-x': -progress + 'px'}" class="background">
-        <VCharacter ref="character" />
-
-        <VObstacle ref="obstacle"/>
+    <div :style="{'background-position-x': -x + 'px'}" class="background">
+        <VCharacter ref="character"/>
 
 		<div v-if="result" class="modal active">
 			<div class="modal__container">

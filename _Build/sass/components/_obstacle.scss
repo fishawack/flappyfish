@@ -1,7 +1,14 @@
 .obstacle{
-	background: green;
+	background-color: green;
 	width: 20%;
-	height: 30%;
-	bottom: 0;
 	position: absolute;
+}
+
+.obstacle--top{
+	top: 0;
+}
+
+.obstacle--bottom{
+	bottom: 0;
+	background-color: red;
 }

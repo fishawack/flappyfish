@@ -1,6 +1,10 @@
 "use strict";
 
 import GLOBAL from 'libs/globals.js';
+import Obstacle from '../VObstacle/VObstacle.vue';
+import Vue from 'vue';
+
+var ObstacleClass = Vue.extend(Obstacle);
 
 var STATES = Object.freeze({
 	"WAIT": 1,
@@ -13,11 +17,13 @@ module.exports = {
 
 	data(){
 		return {
-			last: Date.now(),
+			last: window.performance.now(),
 			delta: 0,
 			state: STATES.WAIT,
-			progress: 0,
-			score: 0
+			x: 0,
+			score: 0,
+			obstacles: [],
+			interval: null
 		};
 	},
 
@@ -35,53 +41,121 @@ module.exports = {
 
 	methods: {
 		update(){
-			if(this.state === STATES.PLAYING){
-				this.progress += GLOBAL.BGSPEED * this.delta;
-
-				this.score += 1 * this.delta;
-
+			if(this.state === STATES.PLAYING || this.state === STATES.RESULT){
 				this.$refs.character.update(this.delta);
-				this.$refs.obstacle.update(this.delta);
+			}
 
-				if(this.$refs.character.y > 100){
-					this.state = STATES.RESULT;
+			if(this.state === STATES.PLAYING){
+				this.x += GLOBAL.BGSPEED * this.delta;
+
+				if(this.obstacles.length){
+					for(var i = this.obstacles.length; i--;){
+						this.obstacles[i].update(this.delta);
+
+						var char = this.$refs.character.bound();
+						var obst = [
+							this.obstacles[0].bound(0),
+							this.obstacles[0].bound(1)
+						];
+
+						for(var j = obst.length; j--;){
+							if(!(
+									char.left > obst[j].right ||
+							        char.right < obst[j].left ||
+							        (char.top > obst[j].bottom && char.bottom > 0) || 
+							        (char.bottom < obst[j].top && char.bottom > 0)
+						        )){
+								this.end();
+								return;
+							}
+						}
+					}
+
+					if(this.obstacles[0].x < 0){
+						this.destroyObstacle();
+					}
 				}
+
+				if(this.$refs.character.y >= 100){
+					this.end();
+				}	
 			}
 		},
-		step(){
-			var now = Date.now();
-			this.delta = (now - this.last) / 1000;
-			this.last = now;
+		frame(){
+			var now = window.performance.now();
 
-			this.update();
+			this.delta = Math.min(1, (now - this.last) / 1000);
+
+			this.update(GLOBAL.STEP);
+
+			this.last = now;
 		    
-		    window.requestAnimationFrame(this.step);
+		    window.requestAnimationFrame(this.frame);
 		},
 		start(){
 			this.state = STATES.PLAYING;
+
+			this.interval = setInterval(() => {
+				if(this.state === STATES.PLAYING){
+					if(this.obstacles.length){
+						this.score += 1;
+					}
+
+					this.createObstacle();
+				}
+			}, GLOBAL.FREQUENCY);
 		},
 		reset(){
 			this.score = 0;
-			this.progress = 0;
+			this.x = 0;
 
 			this.$refs.character.reset();
 
+			clearInterval(this.interval);
+			this.interval = null;
+
+			for(var i = this.obstacles.length; i--;){
+				this.destroyObstacle();
+			}
+
 			this.state = STATES.WAIT;
+		},
+		end(){
+			this.$refs.character.kill();
+			this.state = STATES.RESULT;
+		},
+		createObstacle(){
+			var instance = new ObstacleClass();
+			instance.$mount();
+			this.obstacles.push(instance);
+			this.$el.appendChild(instance.$el);
+		},
+		destroyObstacle(){
+			var hold = this.obstacles.shift();
+
+			hold.$destroy();
+			hold.$el.remove();
+			hold = null;
 		}
 	},
 
 	mounted(){
-		window.requestAnimationFrame(this.step);
+		window.requestAnimationFrame(this.frame);
 
 		window.addEventListener('click', (e) => {
 			if(this.state === STATES.WAIT){
-				this.state = STATES.PLAYING;
+				this.start();
+			}
+		});
+
+		window.addEventListener('keyup', (e) => {
+			if(this.state === STATES.WAIT){
+				this.start();
 			}
 		});
 	},
 
 	components: {
-		VCharacter: require('../VCharacter/VCharacter.vue').default,
-		VObstacle: require('../VObstacle/VObstacle.vue').default
+		VCharacter: require('../VCharacter/VCharacter.vue').default
 	}
 };

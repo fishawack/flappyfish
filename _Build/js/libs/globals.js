@@ -15,10 +15,14 @@
     "use strict";
 
     return {
-        GRAVITY: 0,//5,
-        FLAP: 0,//2,
-        FLAPMAX: 3.5,
+        GRAVITY: 5,
+        GRAVITYMAX: 125,
+        FLAP: 1.5,
+        FLAPMAX: 2,
         BGSPEED: 100,
-        SPEED: 40
+        SPEED: 40,
+        GAP: 35,
+        GAPDIFF: 25,
+        FREQUENCY: 2000
     };
 });
