@@ -3,4 +3,8 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+
+    width: get-vw(120px);
+	min-width: get-vw(120px);
+    padding-bottom: get-vw(120px);
 }
