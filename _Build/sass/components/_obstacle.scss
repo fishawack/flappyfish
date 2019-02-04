@@ -1,8 +1,5 @@
 .obstacle{
-	background-image: resolve("Tentacle_Frame01.svg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 25%;
+	width: 27.5%;
 	position: absolute;
 }
 
@@ -13,5 +10,10 @@
 
 .obstacle--bottom{
 	bottom: 0;
-	background-image: resolve("Tentacle_Frame01.svg");
+}
+
+.obstacle__icon{
+	width: 100%;
+	min-width: 100%;
+	padding-bottom: 280%;
 }

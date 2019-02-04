@@ -7,7 +7,9 @@
 	    		'transform': 'translateX(-' + (100 - x) + '%) rotate(180deg) scaleX(-1)',
 	    		'height': height[0]
 	    	}"
-		></div>
+		>
+			<GIcon class="obstacle__icon" :name="spriteTop"/>
+		</div>
 
 		<div
 	    	class="obstacle obstacle--bottom"
@@ -16,7 +18,9 @@
 	    		'transform': 'translateX(-' + (100 - x) + '%)',
 	    		'height': height[1]
 	    	}"
-		></div>
+		>
+			<GIcon class="obstacle__icon" :name="spriteBottom"/>
+		</div>
 	</div>
 </template>
 

@@ -11,7 +11,11 @@ module.exports = {
 			y: ((Math.random() * ((100 - GLOBAL.GAPDIFF) - GLOBAL.GAP)) + (GLOBAL.GAP * 0.5)) + (GLOBAL.GAPDIFF * 0.5),
 			gap: GLOBAL.GAP * 0.5,
 			clientWidth: null,
-			clientRect: null
+			clientRect: null,
+			timeoutTop: null,
+			timeoutBottom: null,
+			stateTop: false,
+			stateBottom: false
 		};
 	},
 
@@ -43,6 +47,20 @@ module.exports = {
 				(this.y - this.gap) + '%',
 				((100 - this.y) - this.gap) + '%'
 			];
+		},
+		spriteTop(){
+			if(this.stateTop){
+				return '--Tentacle_Frame02';
+			}
+
+			return '--Tentacle_Frame01';
+		},
+		spriteBottom(){
+			if(this.stateBottom){
+				return '--Tentacle_Frame02';
+			}
+
+			return '--Tentacle_Frame01';
 		}
 	},
 
@@ -57,12 +75,37 @@ module.exports = {
 			];
 
 			this.clientWidth = document.body.offsetWidth;
+		},
+		animateTop(index){
+			this.timeoutTop = setTimeout(() => {
+				this.stateTop = !this.stateTop;
+
+				this.animateTop();
+			}, (Math.random() * 1000) + 500);
+		},
+		animateBottom(index){
+			this.timeoutBottom = setTimeout(() => {
+				this.stateBottom = !this.stateBottom;
+
+				this.animateBottom();
+			}, (Math.random() * 1000) + 500);
 		}
 	},
 
 	mounted(){
 		this.$nextTick(function(){
 			this.calculate();
+
+			this.animateTop();
+			this.animateBottom();
 		});
+	},
+
+	beforeDestroy(){
+		clearTimeout(this.timeoutTop);
+		this.timeoutTop = null;
+
+		clearTimeout(this.timeoutBottom);
+		this.timeoutBottom = null;
 	}
 };
