@@ -1,10 +1,10 @@
 {
     "attributes": {
-	    "title": "Vue",
+	    "title": "Flappyfish",
 	    "googleTrackingID": null,
 	    "root": "_Output",
 	    "repo": "bespoke/flappyfish",
-	    "electron": true,
+	    "electron": false,
 	    "ratio": "9:16",
 	    "content": [
             {
@@ -12,6 +12,12 @@
                 "location": "Shared/FW/Knutsford/Digital/Auto-Content/flappyfish/"
             }
         ],
+        "staging": {
+            "url": "http://digital-internal.fishawack.staging/Bespoke/",
+            "location": "/srv/www/digital-internal.fishawack.staging/public/Bespoke/",
+            "ssh": "dumbledore",
+            "subDir": "flappyfish"
+        },
 	    "modernizr": [
 	        "flexbox",
 	        "csscalc"
