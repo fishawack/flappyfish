@@ -54,7 +54,8 @@ module.exports = {
 					for(var i = this.obstacles.length; i--;){
 						this.obstacles[i].update(this.delta);
 
-						var char = this.$refs.character.bound();
+						var char = this.$refs.character.bound;
+
 						var obst = [
 							this.obstacles[0].bound(0),
 							this.obstacles[0].bound(1)
@@ -169,6 +170,14 @@ module.exports = {
 		window.addEventListener('keyup', (e) => {
 			if(this.state === STATES.WAIT){
 				this.start();
+			}
+		});
+
+		window.addEventListener('resize', (e) => {
+			this.$refs.character.calculate();
+
+			for(var i = this.obstacles.length; i--;){
+				this.obstacles[i].calculate();
 			}
 		});
 	},

@@ -14,8 +14,25 @@ module.exports = {
 		return {
 			y: 50,
 			gravity: 0,
-			state: STATES.ALIVE
+			state: STATES.ALIVE,
+			clientHeight: null,
+			clientRect: null
 		};
+	},
+
+	computed: {
+		bound(){
+			var y = this.y * 0.01;
+			var height = this.clientRect.height * 0.5;
+			var center = this.clientHeight * y;
+
+			return {
+				left: this.clientRect.x,
+				right: this.clientRect.x + this.clientRect.width,
+				top: center - height,
+				bottom: center + height
+			};
+		}
 	},
 
 	methods: {
@@ -50,22 +67,18 @@ module.exports = {
 				}
 			}
 		},
-		bound(){
-			var bound = this.$el.getBoundingClientRect();
-
-			return {
-				left: bound.x,
-				right: bound.x + bound.width,
-				top: bound.y,
-				bottom: bound.y + bound.height
-			};
-		},
 		kill(){
 			this.state = STATES.DEAD;
+		},
+		calculate(){
+			this.clientRect = this.$el.getBoundingClientRect();
+			this.clientHeight = document.body.offsetHeight;
 		}
 	},
 
 	mounted(){
+		this.calculate();
+
 		window.addEventListener('click', (e) => {
 			this.flap();
 		});

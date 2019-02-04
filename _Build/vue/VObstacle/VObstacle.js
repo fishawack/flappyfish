@@ -26,9 +26,12 @@ module.exports = {
 				top: bound.y,
 				bottom: bound.y + bound.height
 			};
+		},
+		calculate(){
 		}
 	},
 
 	mounted(){
+		this.calculate();
 	}
 };
