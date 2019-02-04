@@ -6,6 +6,15 @@
 			<div class="modal__container">
 			    <div class="modal__box">
 			    	<h2>Score:<span>{{score | toFixed('0')}}</span></h2>
+
+			    	<form v-on:submit="submit" class="form" :class="{'active': !submitted}">
+				    	<input v-model="name" placeholder="Name" required>
+				    	<button class="button" type="submit">
+				    		<span v-if="!submitted">Submit</span>
+				    		<span v-else>Done</span>
+				    	</button>
+			    	</form>
+
 			        <button v-on:click.stop="reset" class="button">Play Again</button>
 			    </div>
 		    </div>

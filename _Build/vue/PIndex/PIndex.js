@@ -23,7 +23,9 @@ module.exports = {
 			x: 0,
 			score: 0,
 			obstacles: [],
-			interval: null
+			interval: null,
+			name: "",
+			submitted: false
 		};
 	},
 
@@ -113,6 +115,7 @@ module.exports = {
 
 			clearInterval(this.interval);
 			this.interval = null;
+			this.submitted = false;
 
 			for(var i = this.obstacles.length; i--;){
 				this.destroyObstacle();
@@ -120,8 +123,23 @@ module.exports = {
 
 			this.state = STATES.WAIT;
 		},
+		submit(e){
+			e.preventDefault();
+
+			if(this.submitted){
+				return;
+			}
+
+			this.submitted = true;
+
+			window.Utility.send(GLOBAL.ENDPOINT + '/users', {
+				score: this.score, 
+				name: this.name
+			});
+		},
 		end(){
 			this.$refs.character.kill();
+
 			this.state = STATES.RESULT;
 		},
 		createObstacle(){

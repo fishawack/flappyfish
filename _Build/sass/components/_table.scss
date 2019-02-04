@@ -1,0 +1,28 @@
+.table{
+	table-layout: fixed;
+	width: 75%;
+	margin: 0 auto;
+	border-spacing: 0;
+	border: 1px solid gray;
+
+	td{
+		width: 1%;
+	}
+
+	tr:nth-child(odd){
+		background-color: lightgray;
+	}
+
+	tr:nth-child(1){
+		font-weight: bold;
+	}
+
+	td:nth-child(2){
+		text-align: center;
+	}
+
+	td{
+		padding: $spacing;
+		border: 1px solid gray;
+	}
+}

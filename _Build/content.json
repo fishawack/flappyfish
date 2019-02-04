@@ -4,7 +4,8 @@
 	    "googleTrackingID": null,
 	    "root": "_Output",
 	    "repo": "bespoke/flappyfish",
-	    "electron": false,
+	    "electron": true,
+	    "ratio": "9:16",
 	    "content": [
             {
                 "ftps": "ftp-fishawack.egnyte.com",

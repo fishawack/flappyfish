@@ -15,6 +15,7 @@
     "use strict";
 
     return {
+        ENDPOINT: 'http://10.1.8.22:3002',
         GRAVITY: 5,
         GRAVITYMAX: 125,
         FLAP: 1.5,

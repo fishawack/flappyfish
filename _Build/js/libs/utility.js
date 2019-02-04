@@ -54,6 +54,17 @@
             };
             xobj.send(null);  
         },
+        send: function(path, data){
+            var xobj = new XMLHttpRequest();
+            xobj.open('POST', path, true);
+            xobj.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xobj.onload = function () {
+               var status = xobj.status; // HTTP response status, e.g., 200 for "200 OK"
+               var data = xobj.responseText; // Returned data, e.g., an HTML document.
+            };
+
+            xobj.send(JSON.stringify(data));
+        },
         classList: function(el) {
             var list = el.classList;
 
