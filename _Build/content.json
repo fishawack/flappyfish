@@ -5,7 +5,7 @@
 	    "root": "_Output",
 	    "repo": "bespoke/flappyfish",
 	    "electron": false,
-	    "ratio": "9:16",
+	    "ratio": "3:4",
 	    "content": [
             {
                 "ftps": "ftp-fishawack.egnyte.com",
