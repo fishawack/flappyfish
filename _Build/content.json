@@ -6,6 +6,7 @@
 	    "repo": "bespoke/flappyfish",
 	    "electron": false,
 	    "ratio": "3:4",
+	    "cms": "http://digital-internal.fishawack.staging:9999/Bespoke/flappyfish/leaderboard.html",
 	    "content": [
             {
                 "ftps": "ftp-fishawack.egnyte.com",

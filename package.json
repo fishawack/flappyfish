@@ -19,11 +19,12 @@
     "@fishawack/config-grunt": "4.1.2"
   },
   "dependencies": {
+    "@fishawack/lab-d3": "2.1.3",
+    "@fishawack/lab-ui": "9.0.0",
     "breakpoint-sass": "2.7.1",
     "es6-promise": "4.2.5",
     "fastclick": "1.0.6",
-    "@fishawack/lab-d3": "2.1.3",
-    "@fishawack/lab-ui": "9.0.0",
+    "fpsmeter": "github:darsain/fpsmeter",
     "normalize-scss": "7.0.0",
     "vue": "2.5.17",
     "vue-router": "3.0.1",

@@ -3,6 +3,11 @@
 import GLOBAL from 'libs/globals.js';
 import Obstacle from '../VObstacle/VObstacle.vue';
 import Vue from 'vue';
+import FPSMeter from 'fpsmeter';
+
+if(process.env.NODE_ENV === "development"){
+	var meter = new window.FPSMeter();
+}
 
 var ObstacleClass = Vue.extend(Obstacle);
 
@@ -56,9 +61,11 @@ module.exports = {
 
 						var char = this.$refs.character.bound;
 
-						var obst = [
-							this.obstacles[0].bound(0),
-							this.obstacles[0].bound(1)
+						var obst = this.obstacles[i].bound;
+
+						obst = [
+							obst[0],
+							obst[1]
 						];
 
 						for(var j = obst.length; j--;){
@@ -85,6 +92,10 @@ module.exports = {
 			}
 		},
 		frame(){
+			if(process.env.NODE_ENV === "development"){
+				meter.tickStart();
+			}
+
 			var now = window.performance.now();
 
 			this.delta = Math.min(1, (now - this.last) / 1000);
@@ -92,6 +103,10 @@ module.exports = {
 			this.update(GLOBAL.STEP);
 
 			this.last = now;
+
+			if(process.env.NODE_ENV === "development"){
+				meter.tick();
+			}
 		    
 		    window.requestAnimationFrame(this.frame);
 		},

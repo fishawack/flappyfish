@@ -9,29 +9,54 @@ module.exports = {
 		return {
 			x: 100,
 			y: ((Math.random() * ((100 - GLOBAL.GAPDIFF) - GLOBAL.GAP)) + (GLOBAL.GAP * 0.5)) + (GLOBAL.GAPDIFF * 0.5),
-			gap: GLOBAL.GAP * 0.5
+			gap: GLOBAL.GAP * 0.5,
+			clientWidth: null,
+			clientRect: null
 		};
+	},
+
+	computed: {
+		bound(){
+			var x = this.x * 0.01;
+			var width = this.clientRect[0].width * ((100 - this.x) * 0.01);
+			var center = this.clientWidth * x;
+
+			center -= width;
+
+			return [
+				{
+					left: center,
+					right: center + this.clientRect[0].width,
+					top: this.clientRect[0].y,
+					bottom: this.clientRect[0].y + this.clientRect[0].height
+				},
+				{
+					left: center,
+					right: center + this.clientRect[1].width,
+					top: this.clientRect[1].y,
+					bottom: this.clientRect[1].y + this.clientRect[1].height
+				}
+			];
+		}
 	},
 
 	methods: {
 		update(delta){
 			this.x -= GLOBAL.SPEED * delta;
 		},
-		bound(index){
-			var bound = this.$el.children[index].getBoundingClientRect();
-
-			return {
-				left: bound.x,
-				right: bound.x + bound.width,
-				top: bound.y,
-				bottom: bound.y + bound.height
-			};
-		},
 		calculate(){
+			this.clientRect = [
+				this.$el.children[0].getBoundingClientRect(),
+				this.$el.children[1].getBoundingClientRect()
+			];
+
+			this.clientWidth = document.body.offsetWidth;
 		}
 	},
 
 	mounted(){
-		this.calculate();
+		this.$nextTick(function(){
+			this.calculate();
+		});
 	}
 };
