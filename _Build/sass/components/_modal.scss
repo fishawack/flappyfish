@@ -1,3 +1,10 @@
 .modal{
 	background: transparent;
 }
+
+.modal__box{
+	border-radius: $borderRadius;
+	text-align: center;
+	padding: $spacing;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

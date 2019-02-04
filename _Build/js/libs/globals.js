@@ -15,11 +15,12 @@
     "use strict";
 
     return {
-        ENDPOINT: 'http://10.1.8.22:3002',
+        ENDPOINT: 'http://192.168.0.124:8080',
         GRAVITY: 5,
         GRAVITYMAX: 125,
         FLAP: 1.5,
         FLAPMAX: 2,
+        FLAPLENGTH: 250,
         BGSPEED: 100,
         SPEED: 40,
         GAP: 35,

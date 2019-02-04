@@ -4,7 +4,8 @@ import GLOBAL from 'libs/globals.js';
 
 var STATES = Object.freeze({
 	"ALIVE": 1,
-	"DEAD": 2
+	"DEAD": 2,
+	"FLAP": 3
 });
 
 module.exports = {
@@ -16,7 +17,8 @@ module.exports = {
 			gravity: 0,
 			state: STATES.ALIVE,
 			clientHeight: null,
-			clientRect: null
+			clientRect: null,
+			interval: null
 		};
 	},
 
@@ -32,6 +34,16 @@ module.exports = {
 				top: center - height,
 				bottom: center + height
 			};
+		},
+		sprite(){
+			if(this.state === STATES.FLAP){
+				return '--Fish_Frame02';
+			}
+			else if(this.state === STATES.DEAD){
+				return '--Fish_Frame_Hit01';
+			}
+
+			return '--Fish_Frame01';
 		}
 	},
 
@@ -55,7 +67,21 @@ module.exports = {
 			this.state = STATES.ALIVE;
 		},
 		flap(){
-			if(this.state === STATES.ALIVE){
+			if(this.state !== STATES.DEAD){
+				this.state = STATES.FLAP;
+
+				if(this.interval){
+					clearInterval(this.interval);
+					this.interval = null;
+				}
+
+				this.interval = setInterval(() => {
+					this.state = STATES.ALIVE;
+
+					clearInterval(this.interval);
+					this.interval = null;
+				}, GLOBAL.FLAPLENGTH);
+
 				if(this.gravity >= 0){
 					this.gravity = -GLOBAL.FLAP;
 				} else {
@@ -69,9 +95,15 @@ module.exports = {
 		},
 		kill(){
 			this.state = STATES.DEAD;
+			
+			if(this.interval){
+				clearInterval(this.interval);
+				this.interval = null;
+			}
 		},
 		calculate(){
-			this.clientRect = this.$el.getBoundingClientRect();
+			// Get the use tag dimensions
+			this.clientRect = this.$el.children[0].children[0].getBoundingClientRect();
 			this.clientHeight = document.body.offsetHeight;
 		}
 	},
@@ -79,11 +111,15 @@ module.exports = {
 	mounted(){
 		this.calculate();
 
-		window.addEventListener('click', (e) => {
+		window.addEventListener('touchstart', (e) => {
 			this.flap();
 		});
 
-		window.addEventListener('keyup', (e) => {
+		window.addEventListener('mousedown', (e) => {
+			this.flap();
+		});
+
+		window.addEventListener('keydown', (e) => {
 			if(e.code === "Space"){
 				this.flap();
 			}

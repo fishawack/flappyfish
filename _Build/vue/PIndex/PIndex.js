@@ -30,7 +30,9 @@ module.exports = {
 			obstacles: [],
 			interval: null,
 			name: "",
-			submitted: false
+			email: "",
+			submitted: false,
+			contact: false
 		};
 	},
 
@@ -133,6 +135,10 @@ module.exports = {
 			this.interval = null;
 			this.submitted = false;
 
+			this.name = '';
+			this.email = '';
+			this.contact = false;
+
 			for(var i = this.obstacles.length; i--;){
 				this.destroyObstacle();
 			}
@@ -150,7 +156,9 @@ module.exports = {
 
 			window.Utility.send(GLOBAL.ENDPOINT + '/users', {
 				score: this.score, 
-				name: this.name
+				name: this.name,
+				email: this.email,
+				contact: this.contact
 			});
 		},
 		end(){

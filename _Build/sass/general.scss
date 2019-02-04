@@ -25,7 +25,9 @@
 @import "lab-ui/_icon.scss";
 @import "lab-ui/_modal.scss";
 @import "lab-ui/_button.scss";
+@import "lab-ui/_form.scss";
 @import "lab-ui/_typography.scss";
+@import "lab-ui/_radioCheck.scss";
 @import "lab-ui/_utilities.scss";
 
 @import "components/_modal.scss";
@@ -33,6 +35,7 @@
 @import "components/_obstacle.scss";
 @import "components/_form.scss";
 @import "components/_background.scss";
+@import "components/_score.scss";
 @import "components/_table.scss";
 
 html, body, main, .background{

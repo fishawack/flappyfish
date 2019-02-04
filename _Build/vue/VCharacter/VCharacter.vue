@@ -2,7 +2,7 @@
     <GIcon
     	:style="{'top': y + '%'}"
     	class="character icon--large"
-    	name="bird"
+    	:name="sprite"
 	/>
 </template>
 

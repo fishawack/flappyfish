@@ -1,14 +1,17 @@
 .obstacle{
-	background-color: green;
-	width: 20%;
+	background-image: resolve("Tentacle_Frame01.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 25%;
 	position: absolute;
 }
 
 .obstacle--top{
 	top: 0;
+	transform: rotate(180deg);
 }
 
 .obstacle--bottom{
 	bottom: 0;
-	background-color: red;
+	background-image: resolve("Tentacle_Frame01.svg");
 }

@@ -1,0 +1,17 @@
+.score{
+	color: white;
+	z-index: 1;
+	margin: 0;
+	line-height: 1em;
+	margin: 0;
+	position: absolute;
+	bottom: $spacing;
+	left: $spacing;
+	text-align: center;
+
+	span{
+		padding-bottom: $spacing * 0.5;
+		display: inline-block;
+		font-size: 1.5em;
+	}
+}

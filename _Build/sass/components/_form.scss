@@ -1,7 +1,29 @@
 .form{
-	opacity: 0.5;
+	margin-top: $spacing;
+
+	input[type="text"], input[type="email"], .checkbox__label{
+		opacity: 0.5;
+	}
+
+	button{
+		width: calc(50% - #{$spacing});
+		opacity: 0.5;
+
+		span{
+			display: block;
+		}
+	}
 
 	&.active{
-		opacity: 1;
+		button, input[type="text"], input[type="email"], .checkbox__label{
+			opacity: 1;
+		}
 	}
+}
+
+.form__button{
+	position: absolute;
+	bottom: $spacing;
+	left: $spacing;
+	width: calc(50% - #{$spacing});
 }
