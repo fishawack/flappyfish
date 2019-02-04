@@ -27,8 +27,8 @@ module.exports = {
 			var center = this.clientHeight * y;
 
 			return {
-				left: this.clientRect.x,
-				right: this.clientRect.x + this.clientRect.width,
+				left: this.clientRect.left,
+				right: this.clientRect.left + this.clientRect.width,
 				top: center - height,
 				bottom: center + height
 			};

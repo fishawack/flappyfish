@@ -5,7 +5,7 @@
 	    	:style="{
 	    		'left': x + '%',
 	    		'transform': 'translateX(-' + (100 - x) + '%)',
-	    		'height': (y - gap) + '%'
+	    		'height': height[0]
 	    	}"
 		></div>
 
@@ -14,7 +14,7 @@
 	    	:style="{
 	    		'left': x + '%',
 	    		'transform': 'translateX(-' + (100 - x) + '%)',
-	    		'height': ((100 - y) - gap) + '%'
+	    		'height': height[1]
 	    	}"
 		></div>
 	</div>

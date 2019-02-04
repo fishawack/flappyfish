@@ -27,15 +27,21 @@ module.exports = {
 				{
 					left: center,
 					right: center + this.clientRect[0].width,
-					top: this.clientRect[0].y,
-					bottom: this.clientRect[0].y + this.clientRect[0].height
+					top: this.clientRect[0].top,
+					bottom: this.clientRect[0].top + this.clientRect[0].height
 				},
 				{
 					left: center,
 					right: center + this.clientRect[1].width,
-					top: this.clientRect[1].y,
-					bottom: this.clientRect[1].y + this.clientRect[1].height
+					top: this.clientRect[1].top,
+					bottom: this.clientRect[1].top + this.clientRect[1].height
 				}
+			];
+		},
+		height(){
+			return [
+				(this.y - this.gap) + '%',
+				((100 - this.y) - this.gap) + '%'
 			];
 		}
 	},
