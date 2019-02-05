@@ -8,6 +8,7 @@
 	bottom: $spacing;
 	left: $spacing;
 	text-align: center;
+	font-size: get-vw(32px);
 
 	span{
 		padding-bottom: $spacing * 0.5;
