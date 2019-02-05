@@ -32,7 +32,8 @@ module.exports = {
 			name: "",
 			email: "",
 			submitted: false,
-			contact: false
+			contact: false,
+			invalid: false
 		};
 	},
 
@@ -134,6 +135,7 @@ module.exports = {
 			clearInterval(this.interval);
 			this.interval = null;
 			this.submitted = false;
+			this.invalid = false;
 
 			this.name = '';
 			this.email = '';
@@ -152,7 +154,14 @@ module.exports = {
 				return;
 			}
 
+			if(this.name === "" || this.email === ""){
+				this.invalid = true;
+
+				return;
+			}
+
 			this.submitted = true;
+			this.invalid = false;
 
 			window.Utility.send(GLOBAL.ENDPOINT + '/users', {
 				score: this.score, 
@@ -178,6 +187,9 @@ module.exports = {
 			hold.$destroy();
 			hold.$el.remove();
 			hold = null;
+		},
+		focusInput: function(el){
+			el.target.focus();
 		}
 	},
 

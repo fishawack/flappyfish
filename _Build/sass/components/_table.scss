@@ -1,12 +1,12 @@
 .table{
-	table-layout: fixed;
-	width: 75%;
-	margin: 0 auto;
+	margin: $spacing;
+	box-sizing: border-box;
 	border-spacing: 0;
 	border: 1px solid gray;
+	text-align: center;
 
 	td{
-		width: 1%;
+		min-width: 50%;
 	}
 
 	tr:nth-child(odd){
@@ -17,12 +17,27 @@
 		font-weight: bold;
 	}
 
+	td:nth-child(2), td:nth-child(3){
+		width: 50%;
+	}
+
 	td:nth-child(2){
-		text-align: center;
+		text-align: left;
 	}
 
 	td{
-		padding: $spacing;
+		padding: $spacing * 0.75;
 		border: 1px solid gray;
+		transition: all $animDuration;
 	}
+}
+
+.labD3__new{
+	color: green;
+	font-size: 1.5em;
+}
+
+.labD3__updated, .labD3__updated + td, .labD3__updated + td + td{
+	color: #FC565F;
+	font-size: 1.5em;
 }

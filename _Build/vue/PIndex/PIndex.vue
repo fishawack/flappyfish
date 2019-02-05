@@ -9,19 +9,19 @@
 
 			    	<form v-on:submit="submit" class="form" :class="{'active': !submitted}">
 
-			    		<div class="form__group">
-				    		<input :disabled="submitted" class="form__input" type="text" v-model="name" placeholder="Name" required>
+			    		<div class="form__group" :class="{'active': (invalid && name === '')}">
+				    		<input v-on:click="focusInput" :disabled="submitted" class="form__input" type="text" v-model="name" placeholder="Name" required>
 			    		</div>
 
-				    	<div class="form__group">
-				    		<input :disabled="submitted" class="form__input" type="email" v-model="email" placeholder="Email" required>
+				    	<div class="form__group" :class="{'active': (invalid && email === '')}">
+				    		<input v-on:click="focusInput" :disabled="submitted" class="form__input" type="email" v-model="email" placeholder="Email" required>
 			    		</div>
 
 			    		<div class="form__group">
 							<input :disabled="submitted" class="checkbox" name="cboxes" type="checkbox" id="cbox1" v-model="contact" />
 							<label class="checkbox__label" for="cbox1">
 								<span class="checkbox__icon"></span>
-								<span>Please confirm whether you agree to be contacted</span>
+								<span>(Optional) Please confirm whether you agree to be contacted</span>
 							</label>
 						</div>
 

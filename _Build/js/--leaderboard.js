@@ -11,6 +11,7 @@ import GLOBAL from 'libs/globals.js';
 
 	// Lab-d3 code to render a table from a json data object
 	var leaderboard = new Table('.js-leaderboard');
+
 	leaderboard.init();
 
 	// Commonly used utilitys bound to window object so it can be used in vue components easily
@@ -26,9 +27,11 @@ import GLOBAL from 'libs/globals.js';
 	    			key: d.id,
 					values: [
 						{
+							key: "a" + d.id,
 							value: d.name
 						},
 						{
+							key: "b" + d.id,
 							value: d.score
 						}
 					]
@@ -40,9 +43,20 @@ import GLOBAL from 'libs/globals.js';
 	    		return b.values[1].value - a.values[1].value;
 	    	}).splice(10);
 
+	    	// Add leaderboard number
+	    	data.map(function(d, i){
+				d.values.unshift({
+					key: "c" + d.id,
+					value: i + 1
+				});
+			});
+
 	    	// Add headers
 	    	data.unshift({
 				values: [
+					{
+						value: ""
+					},
 					{
 						value: "Name"
 					},
@@ -59,7 +73,7 @@ import GLOBAL from 'libs/globals.js';
 	    	// Setup the next update call
 	    	setTimeout(function(){
 	    		update();
-	    	}, 2000);
+	    	}, 4000);
 	    });
 	}
 
