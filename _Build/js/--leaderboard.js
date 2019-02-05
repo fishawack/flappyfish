@@ -55,7 +55,7 @@ import GLOBAL from 'libs/globals.js';
 	    	data.unshift({
 				values: [
 					{
-						value: ""
+						value: "Pos"
 					},
 					{
 						value: "Name"
@@ -73,7 +73,7 @@ import GLOBAL from 'libs/globals.js';
 	    	// Setup the next update call
 	    	setTimeout(function(){
 	    		update();
-	    	}, 4000);
+	    	}, 3000);
 	    });
 	}
 

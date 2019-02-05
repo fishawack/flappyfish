@@ -21,7 +21,7 @@
 							<input :disabled="submitted" class="checkbox" name="cboxes" type="checkbox" id="cbox1" v-model="contact" />
 							<label class="checkbox__label" for="cbox1">
 								<span class="checkbox__icon"></span>
-								<span>(Optional) Please confirm whether you agree to be contacted</span>
+								<span>Please confirm you agree to be contacted</span>
 							</label>
 						</div>
 
