@@ -38,10 +38,10 @@ import GLOBAL from 'libs/globals.js';
 				};
 	    	});
 
-	    	// Sort by score then splice all but the first 6 results
+	    	// Sort by score then splice all but the first 10 results
 	    	data.sort(function(a, b){
 	    		return b.values[1].value - a.values[1].value;
-	    	}).splice(6);
+	    	}).splice(10);
 
 	    	// Add leaderboard number
 	    	data.map(function(d, i){

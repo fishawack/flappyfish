@@ -35,6 +35,8 @@
 
 			    	<button v-on:click.stop="reset" class="button ut-marginTop form__button">Play Again</button>
 			    </div>
+
+			    <a class="button ut-pin ut-right ut-bottom ut-onTop" target="_blank" href="leaderboard.html">Leaderboard</a>
 		    </div>
 		</div>
 
