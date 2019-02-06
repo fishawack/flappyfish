@@ -15,7 +15,7 @@
     "use strict";
 
     return {
-        ENDPOINT: (process.env.NODE_ENV !== "production") ? 'http://10.1.8.22:3002' : 'http://192.168.0.124:8080',
+        ENDPOINT: (process.env.NODE_TARGET !== "production") ? 'http://10.1.8.22:3002' : 'http://192.168.0.124:8080',
         GRAVITY: 5,
         GRAVITYMAX: 125,
         FLAP: 1.5,
