@@ -17,7 +17,7 @@ var STATES = Object.freeze({
 	"RESULT": 3
 });
 
-module.exports = {
+export default {
 	name: 'PIndex',
 
 	data(){

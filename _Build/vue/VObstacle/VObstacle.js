@@ -2,7 +2,7 @@
 
 import GLOBAL from 'libs/globals.js';
 
-module.exports = {
+export default {
 	name: 'VObstacle',
 
 	data(){

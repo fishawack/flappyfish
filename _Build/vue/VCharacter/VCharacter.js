@@ -8,7 +8,7 @@ var STATES = Object.freeze({
 	"FLAP": 3
 });
 
-module.exports = {
+export default {
 	name: 'VCharacter',
 
 	data(){
