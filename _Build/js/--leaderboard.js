@@ -1,7 +1,7 @@
 "use strict";
 
 // Lab-d3 table component
-import Table from 'table';
+import Table from '@fishawack/lab-d3/src/charts/table';
 // Global vars
 import GLOBAL from 'libs/globals.js';
 
