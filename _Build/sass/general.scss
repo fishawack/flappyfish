@@ -30,6 +30,8 @@
 @import "lab-ui/_radioCheck.scss";
 @import "lab-ui/_utilities.scss";
 
+/* uncss:ignore start */
+
 @import "components/_modal.scss";
 @import "components/_character.scss";
 @import "components/_obstacle.scss";
@@ -38,6 +40,8 @@
 @import "components/_score.scss";
 @import "components/_table.scss";
 @import "components/_utilities.scss";
+
+/* uncss:ignore end */
 
 html, body, main, .background{
 	width: 100%;
