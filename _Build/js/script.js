@@ -1,16 +1,16 @@
 "use strict";
 
+import "es6-promise/auto";
+
 import Vue from 'vue';
 
 (function(){
 	if(navigator.userAgent === 'jsdom'){ return; }
 
-	require("es6-promise").polyfill();
-
-	var Utility = window.Utility = require('utility');
+	var Utility = window.Utility = require('./libs/utility');
 
 	// Global filters
-	require('filters');
+	require('./libs/filters');
 
 	// Global components
 	Vue.component('GIcon', require('../vue/GIcon/GIcon.vue').default);
@@ -18,8 +18,8 @@ import Vue from 'vue';
 	// Init vue instance
 	var vue = new Vue({
 		el: '#app',
-		store: require('store'),
-		router: require('routes').init(),
+		store: require('./libs/store'),
+		router: require('./libs/routes').init(),
 		data: {
 			version: '',
 			title: ''

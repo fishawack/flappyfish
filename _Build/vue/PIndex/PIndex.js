@@ -1,6 +1,6 @@
 "use strict";
 
-import GLOBAL from 'libs/globals.js';
+import GLOBAL from '../../js/libs/globals.js';
 import Obstacle from '../VObstacle/VObstacle.vue';
 import Vue from 'vue';
 import FPSMeter from 'fpsmeter';

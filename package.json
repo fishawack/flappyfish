@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "npm start $npm_package_vars_config",
-    "setup": "npm install --no-save && npm run content",
+    "setup": "npm ci && npm run content",
     "deploy": "npm run deploy $npm_package_vars_config",
     "deploy-s": "npm run deploy-s $npm_package_vars_config",
     "production": "npm run production $npm_package_vars_config",
@@ -16,11 +16,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@fishawack/config-grunt": "4.1.6"
+    "@fishawack/config-grunt": "4.4.9"
   },
   "dependencies": {
-    "@fishawack/lab-d3": "2.1.6",
-    "@fishawack/lab-ui": "9.0.0",
+    "@fishawack/lab-d3": "2.2.3",
+    "@fishawack/lab-ui": "9.1.1",
     "breakpoint-sass": "2.7.1",
     "es6-promise": "4.2.5",
     "fastclick": "1.0.6",

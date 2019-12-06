@@ -1,6 +1,6 @@
 "use strict";
 
-import GLOBAL from 'libs/globals.js';
+import GLOBAL from '../../js/libs/globals.js';
 
 export default {
 	name: 'VObstacle',

@@ -1,6 +1,6 @@
 "use strict";
 
-import GLOBAL from 'libs/globals.js';
+import GLOBAL from '../../js/libs/globals.js';
 
 var STATES = Object.freeze({
 	"ALIVE": 1,

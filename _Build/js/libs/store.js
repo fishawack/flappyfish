@@ -14,7 +14,7 @@
                 require('vuex').default, 
                 require('vuex-persistedstate').default, 
                 require('vue').default, 
-                require('utility')
+                require('./utility')
             );
     } else {
         /* istanbul ignore next */

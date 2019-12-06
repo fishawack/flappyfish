@@ -3,7 +3,7 @@
 // Lab-d3 table component
 import Table from '@fishawack/lab-d3/src/charts/table';
 // Global vars
-import GLOBAL from 'libs/globals.js';
+import GLOBAL from './libs/globals.js';
 
 (function(){
 	// JSDOM check so scripts aren't ran on jsdom renders
@@ -15,7 +15,7 @@ import GLOBAL from 'libs/globals.js';
 	leaderboard.init();
 
 	// Commonly used utilitys bound to window object so it can be used in vue components easily
-	var Utility = window.Utility = require('utility');
+	var Utility = window.Utility = require('./libs/utility');
 
 	// Constant 2 second ping for new data from the server
 	function update(){
