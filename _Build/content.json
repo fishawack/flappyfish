@@ -13,7 +13,7 @@
                 "location": "Shared/FW/Knutsford/Digital/Auto-Content/flappyfish/"
             }
         ],
-        "staging": {
+        "production": {
             "url": "http://digital-internal.fishawack.staging/Bespoke/",
             "location": "/srv/www/digital-internal.fishawack.staging/public/Bespoke/",
             "ssh": "dumbledore",
