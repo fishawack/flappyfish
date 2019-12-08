@@ -33,7 +33,8 @@ export default {
 			email: "",
 			submitted: false,
 			contact: false,
-			invalid: false
+			invalid: false,
+			link: ''
 		};
 	},
 
@@ -203,7 +204,10 @@ export default {
 		});
 
 		window.addEventListener('keyup', (e) => {
-			if(this.state === STATES.WAIT){
+			if(
+				e.code === "Space" && 
+				this.state === STATES.WAIT
+			){
 				this.start();
 			}
 		});
@@ -214,6 +218,11 @@ export default {
 			for(var i = this.obstacles.length; i--;){
 				this.obstacles[i].calculate();
 			}
+		});
+
+		window.Utility.load('http://portfolio-cms.fishawack.staging/wp-json/wp/v2/articles', (data) => {
+			let latest = JSON.parse(data)[0];
+			this.link = `http://portfolio.fishawack.solutions/#/article/${latest.title.rendered}?id=${latest.id}`;
 		});
 	},
 

@@ -1,3 +1,18 @@
 .ut-onTop{
 	z-index: 1 !important;
 }
+
+.ut-centerX{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.ut-centerY{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ut-highlight{
+	color: $color2;
+	background-color: $color0;
+}

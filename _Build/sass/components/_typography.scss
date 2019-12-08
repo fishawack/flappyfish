@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Pixel';
+    src: resolve('PIXEL-LI.TTF') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+button{
+	font-family: $fontFamily;
+}
+
+a, button{
+	line-height: 1.25em;
+}

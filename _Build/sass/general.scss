@@ -32,6 +32,7 @@
 
 /* uncss:ignore start */
 
+@import "components/_typography.scss";
 @import "components/_modal.scss";
 @import "components/_character.scss";
 @import "components/_obstacle.scss";
@@ -39,6 +40,8 @@
 @import "components/_background.scss";
 @import "components/_score.scss";
 @import "components/_table.scss";
+@import "components/_button.scss";
+@import "components/_start.scss";
 @import "components/_utilities.scss";
 
 /* uncss:ignore end */
