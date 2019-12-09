@@ -10,7 +10,7 @@
     	>
         	<h2>Welcome to</h2>
         	<h1 data-text="Christmas jumper">Christmas jumper</h1>
-        	<p>Survive for <span class="ut-highlight ut-padding">15 jumps</span> to unlock todays digital highlight</p>
+        	<p>Survive for <span class="ut-highlight ut-padding">5 jumps</span> to unlock todays digital highlight</p>
         	<p>Press space bar to begin</p>
         </div>
 
@@ -58,7 +58,7 @@
 			    <div class="modal__box ut-relative modal__box--alt">
 			    	<h2 class="ut-marginTop ut-marginBottom-2">Final score: <span>{{score | toFixed('0')}}</span></h2>
 	
-					<div v-if="score < 15">
+					<div v-if="score < 5">
 				    	<h3>Too Bad</h3>
 
 				    	<p><span class="ut-highlight ut-padding">Try again</span> to unlock today's digital highlight</p>
