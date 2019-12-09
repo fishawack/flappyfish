@@ -10,7 +10,7 @@
     	>
         	<h2>Welcome to</h2>
         	<h1>Christmas jumper</h1>
-        	<p>Survive for <span class="ut-highlight">15 jumps</span> to unlock todays digital highlight</p>
+        	<p>Survive for <span class="ut-highlight ut-padding">15 jumps</span> to unlock todays digital highlight</p>
         	<p>Press space bar to begin</p>
         </div>
 
@@ -61,7 +61,7 @@
 					<div v-if="score < 15">
 				    	<h3>Too Bad</h3>
 
-				    	<p><span class="ut-highlight">Try again</span> to unlock today's digital highlight</p>
+				    	<p><span class="ut-highlight ut-padding">Try again</span> to unlock today's digital highlight</p>
 
 				    	<button v-on:click.stop="reset" class="button ut-fullWidth ut-borderBox ut-marginTop-2">Try Again</button>
 

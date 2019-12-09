@@ -1,5 +1,6 @@
 .button{
 	border: get-vw(2px) solid darken($color1, 25%);
+	padding-top: $spacing * 1.5;
 }
 
 .button--alt{

@@ -6,6 +6,8 @@
 	width: 100%;
 	color: $color0;
 	font-size: 2em;
+	padding: 0 #{$spacing * 2};
+	box-sizing: border-box;
 
 	h1{
 		padding-bottom: $spacing * 20;
