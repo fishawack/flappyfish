@@ -50,10 +50,10 @@ export default {
 		},
 		spriteTop(){
 			if(this.stateTop){
-				return '--Tentacle_Frame02';
+				return '--Top_Frame02';
 			}
 
-			return '--Tentacle_Frame01';
+			return '--Top_Frame01';
 		},
 		spriteBottom(){
 			if(this.stateBottom){
