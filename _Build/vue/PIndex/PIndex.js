@@ -221,7 +221,12 @@ export default {
 		});
 
 		window.Utility.load('http://portfolio-cms.fishawack.staging/wp-json/wp/v2/articles', (data) => {
-			let latest = JSON.parse(data)[0];
+			let json = JSON.parse(data);
+
+			let latest = json.sort((a, b) => {
+				return new Date(b.modified).getTime() - new Date(a.modified).getTime();
+			})[0];
+
 			this.link = `http://portfolio.fishawack.solutions/#/article/${latest.title.rendered}?id=${latest.id}`;
 		});
 	},
