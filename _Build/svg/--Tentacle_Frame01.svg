@@ -1,196 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="90px" height="250px" viewBox="0 0 90 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Tentacle_Frame01</title>
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Snowman 01</title>
     <desc>Created with Sketch.</desc>
-    <g id="Tentacle_Frame01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M2,45 L1,45 L1,44 L1,42 L0,42 L0,29 L1,29 L1,25 L2,25 L2,19 L3,19 L4,19 L4,16 L6,16 L6,13 L8,13 L8,12 L9,12 L9,9 L12,9 L12,7 L16,7 L16,5 L18,5 L18,3 L22,3 L22,1 L29,1 L29,0 L50,0 L50,1 L59,1 L59,2 L62,2 L62,3 L64,3 L64,4 L67,4 L67,5 L69,5 L69,7 L71,7 L71,8 L72,8 L72,9 L73,9 L73,10 L74,10 L74,11 L75,11 L75,12 L76,12 L76,13 L77,13 L77,14 L78,14 L78,16 L79,16 L79,17 L80,17 L80,19 L81,19 L81,21 L82,21 L82,23 L83,23 L83,25 L84,25 L84,28 L85,28 L85,32 L86,32 L86,35 L87,35 L87,40 L88,40 L88,47 L89,47 L89,57 L90,57 L90,77 L89,77 L89,78 L89,86 L88,86 L88,89 L87,89 L87,92 L86,92 L86,95 L84,95 L84,99 L82,99 L82,104 L81,104 L81,108 L80,108 L80,112 L79,112 L79,115 L78,115 L78,119 L77,119 L77,124 L77,126 L76,126 L76,133 L75,133 L75,173 L76,173 L76,185 L77,185 L77,193 L78,193 L78,199 L79,199 L79,205 L80,205 L80,210 L81,210 L81,216 L82,216 L82,220 L83,220 L83,225 L84,225 L84,229 L85,229 L85,233 L86,233 L86,237 L87,237 L87,241 L88,241 L88,245 L89,245 L89,248 L90,248 L90,250 L89,250 L88,250 L87,250 L75,250 L14,250 L0,250 L0,243 L1,243 L1,232 L2,232 L2,222 L3,222 L3,212 L4,212 L4,204 L5,204 L5,197 L6,197 L6,190 L7,190 L7,184 L8,184 L8,178 L9,178 L9,173 L10,173 L10,167 L11,167 L11,162 L12,162 L12,157 L13,157 L13,153 L14,153 L14,149 L15,149 L15,145 L16,145 L16,141 L17,141 L17,138 L18,138 L18,134 L19,134 L19,130 L20,130 L20,127 L21,127 L21,124 L22,124 L22,121 L23,121 L23,118 L24,118 L24,115 L25,115 L25,113 L26,113 L26,110 L27,110 L27,107 L28,107 L28,105 L29,105 L29,102 L30,102 L30,100 L31,100 L31,98 L32,98 L32,96 L33,96 L33,94 L34,94 L34,91 L36,91 L36,88 L37,88 L37,85 L39,85 L39,83 L41,83 L41,80 L42,80 L42,78 L43,78 L43,76 L44,76 L44,73 L45,73 L45,71 L46,71 L46,68 L47,68 L47,65 L48,65 L48,61 L49,61 L49,57 L50,57 L50,52 L51,52 L51,49 L53,49 L53,34 L52,34 L52,32 L51,32 L51,30 L50,30 L50,28 L49,28 L49,27 L48,27 L48,26 L47,26 L47,25 L45,25 L45,24 L43,24 L43,23 L40,23 L40,22 L37,22 L37,21 L34,21 L34,20 L31,20 L31,21 L29,21 L29,22 L27,22 L27,23 L25,23 L25,24 L23,24 L23,25 L21,25 L21,26 L20,26 L20,27 L19,27 L19,29 L17,29 L17,30 L16,30 L16,32 L15,32 L15,35 L14,35 L14,38 L13,38 L13,41 L14,41 L14,43 L15,43 L15,46 L16,46 L16,48 L18,48 L18,49 L19,49 L19,50 L21,50 L21,51 L23,51 L23,52 L25,52 L25,51 L28,51 L28,50 L31,50 L31,56 L30,56 L30,57 L29,57 L29,59 L27,59 L27,60 L20,60 L20,59 L17,59 L17,58 L14,58 L14,56 L11,56 L11,54 L9,54 L9,52 L7,52 L7,50 L4,50 L4,48 L2,48 L2,45 Z" id="Tentacle" fill="#FC0A6B"></path>
-        <g id="Sucker-Copy-3" transform="translate(6.000000, 199.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-25" transform="translate(26.000000, 233.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-10" transform="translate(24.000000, 210.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-24" transform="translate(7.000000, 223.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-5" transform="translate(10.000000, 170.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-4" transform="translate(23.000000, 186.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-6" transform="translate(25.000000, 155.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-7" transform="translate(18.000000, 136.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-8" transform="translate(32.000000, 121.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="12" height="16"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="14" height="14"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="8" height="18"></rect>
-            <polygon id="Rectangle-Copy-28" points="17.0407689 3 17.0407689 15.2805767 1 15.2805767 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="18 5 18 13 0 13 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-9" transform="translate(28.000000, 104.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="10" height="14"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="12" height="12"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="6" height="16"></rect>
-            <polygon id="Rectangle-Copy-28" points="15 3 15 13 1 13 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="16 5 16 11 0 11 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-26" transform="translate(43.000000, 93.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="10" height="14"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="12" height="12"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="6" height="16"></rect>
-            <polygon id="Rectangle-Copy-28" points="15 3 15 13 1 13 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="16 5 16 11 0 11 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-11" transform="translate(42.000000, 78.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="8" height="12"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="10" height="10"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="4" height="14"></rect>
-            <polygon id="Rectangle-Copy-28" points="13 3 13 11 1 11 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="14 5 14 9 0 9 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-12" transform="translate(55.000000, 70.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="8" height="12"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="10" height="10"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="4" height="14"></rect>
-            <polygon id="Rectangle-Copy-28" points="13 3 13 11 1 11 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="14 5 14 9 0 9 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-13" transform="translate(50.000000, 56.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="8" height="12"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="10" height="10"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="4" height="14"></rect>
-            <polygon id="Rectangle-Copy-28" points="13 3 13 11 1 11 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="14 5 14 9 0 9 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-14" transform="translate(61.000000, 48.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="6" height="10"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="8" height="8"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="2" height="12"></rect>
-            <polygon id="Rectangle-Copy-28" points="11 3 11 9 1 9 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="12 5 12 7 0 7 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-15" transform="translate(54.000000, 39.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="6" height="10"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="8" height="8"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="2" height="12"></rect>
-            <polygon id="Rectangle-Copy-28" points="11 3 11 9 1 9 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="12 5 12 7 0 7 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-27" transform="translate(61.000000, 29.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="3" y="1" width="6" height="10"></rect>
-            <rect id="Rectangle-Copy-30" x="2" y="2" width="8" height="8"></rect>
-            <rect id="Rectangle-Copy-27" x="5" y="0" width="2" height="12"></rect>
-            <polygon id="Rectangle-Copy-28" points="11 3 11 9 1 9 1 3"></polygon>
-            <polygon id="Rectangle-Copy-29" points="12 5 12 7 0 7 0 5"></polygon>
-        </g>
-        <g id="Sucker-Copy-16" transform="translate(53.000000, 27.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="4" height="8"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="6" height="6"></rect>
-            <polygon id="Rectangle-Copy-28" points="8 2 8 6 0 6 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-28" transform="translate(54.000000, 18.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="4" height="8"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="6" height="6"></rect>
-            <polygon id="Rectangle-Copy-28" points="8 2 8 6 0 6 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-29" transform="translate(45.000000, 15.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="4" height="8"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="6" height="6"></rect>
-            <polygon id="Rectangle-Copy-28" points="8 2 8 6 0 6 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-17" transform="translate(39.000000, 8.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="4" height="8"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="6" height="6"></rect>
-            <polygon id="Rectangle-Copy-28" points="8 2 8 6 0 6 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-18" transform="translate(30.000000, 11.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="4" height="8"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="6" height="6"></rect>
-            <polygon id="Rectangle-Copy-28" points="8 2 8 6 0 6 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-19" transform="translate(22.000000, 13.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="2" height="6"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="4" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="6 2 6 4 0 4 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-30" transform="translate(25.000000, 7.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="2" height="6"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="4" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="6 2 6 4 0 4 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-20" transform="translate(16.000000, 19.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="2" height="6"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="4" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="6 2 6 4 0 4 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-31" transform="translate(15.000000, 12.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="2" height="6"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="4" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="6 2 6 4 0 4 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-21" transform="translate(10.000000, 22.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-26" x="2" y="0" width="2" height="6"></rect>
-            <rect id="Rectangle-Copy-30" x="1" y="1" width="4" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="6 2 6 4 0 4 0 2"></polygon>
-        </g>
-        <g id="Sucker-Copy-22" transform="translate(10.000000, 29.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-30" x="1" y="0" width="2" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="4 1 4 3 0 3 0 1"></polygon>
-        </g>
-        <g id="Sucker-Copy-23" transform="translate(6.000000, 32.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-30" x="1" y="0" width="2" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="4 1 4 3 0 3 0 1"></polygon>
-        </g>
-        <g id="Sucker-Copy-32" transform="translate(8.000000, 37.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-30" x="1" y="0" width="2" height="4"></rect>
-            <polygon id="Rectangle-Copy-28" points="4 1 4 3 0 3 0 1"></polygon>
-        </g>
-        <g id="Sucker-Copy-33" transform="translate(8.000000, 42.000000)" fill="#FFA8CB">
-            <rect id="Rectangle-Copy-30" x="0" y="0" width="2" height="2"></rect>
-            <rect id="Rectangle-Copy-155" x="3" y="1" width="2" height="2"></rect>
-            <rect id="Rectangle-Copy-156" x="2" y="4" width="2" height="2"></rect>
-            <rect id="Rectangle-Copy-157" x="5" y="5" width="2" height="2"></rect>
+    <defs>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DBDBDB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C0C0C0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D0D0D0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Snowman-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <g id="Head" transform="translate(8.000000, 29.000000)">
+                <path d="M52,26 L26,26 L51,26 L51,30 L26,30 L50,30 L50,33 L49,33 L49,35 L48,35 L48,36 L47,36 L47,38 L46,38 L46,39 L45,39 L45,40 L44,40 L44,41 L43,41 L43,42 L42,42 L42,43 L41,43 L41,44 L39,44 L39,45 L38,45 L38,46 L35,46 L35,47 L31,47 L31,48 L21,48 L21,47 L17,47 L17,46 L14,46 L14,45 L13,45 L13,44 L11,44 L11,43 L10,43 L10,42 L9,42 L9,41 L8,41 L8,40 L7,40 L7,39 L6,39 L6,38 L5,38 L5,36 L4,36 L4,35 L3,35 L3,33 L2,33 L2,30 L1,30 L1,26 L0,26 L0,22 L1,22 L1,18 L2,18 L2,15 L3,15 L3,13 L4,13 L4,12 L5,12 L5,10 L6,10 L6,9 L7,9 L7,8 L8,8 L8,7 L9,7 L9,6 L10,6 L10,5 L11,5 L11,4 L13,4 L13,3 L14,3 L14,2 L17,2 L17,1 L21,1 L21,0 L31,4.4408921e-16 L31,1 L35,1 L35,2 L38,2 L38,3 L39,3 L39,4 L41,4 L41,5 L42,5 L42,6 L43,6 L43,7 L44,7 L44,8 L26,8 L26,8 L45,8 L45,9 L46,9 L46,10 L47,10 L47,12 L48,12 L48,13 L49,13 L49,15 L50,15 L50,18 L51,18 L51,22 L52,22 L52,26 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M31.6968615,4.4408921e-16 L31.6968615,1 L35.6968615,1 L35.6968615,2 L38.6968615,2 L38.6968615,3 L39.6968615,3 L39.6968615,4 L41.6968615,4 L41.6968615,5 L42.6968615,5 L42.6968615,6 L43.6968615,6 L43.6968615,7 L44.6968615,7 L44.6968615,8 L45.6968615,8 L45.6968615,9 L46.6968615,9 L46.6968615,10 L47.6968615,10 L47.6968615,12 L48.6968615,12 L48.6968615,13 L49.6968615,13 L49.6968615,15 L50.6968615,15 L50.6968615,18 L51.6968615,18 L51.6968615,22 L52.6968615,22 L52.6968615,26 L51.6968615,26 L51.6968615,30 L50.6968615,30 L50.6968615,33 L49.6968615,33 L49.6968615,35 L48.6968615,35 L48.6968615,36 L47.6968615,36 L47.6968615,38 L46.6968615,38 L46.6968615,39 L45.6968615,39 L45.6968615,40 L44.6968615,40 L44.6968615,41 L43.6968615,41 L43.6968615,42 L42.6968615,42 L42.6968615,43 L41.6968615,43 L41.6968615,44 L39.6968615,44 L39.6968615,45 L38.6968615,45 L38.6968615,46 L35.6968615,46 L35.6968615,47 L31.6968615,47 L31.6968615,48 L21.6968615,48 L21.6968615,47 L18.0005291,47.0005448 C29.3638521,43.8151058 37.6968615,33.3806922 37.6968615,21 C37.6968615,12.5175256 33.7852373,4.94866006 27.6674019,-0.00118354082 L31.6968615,4.4408921e-16 Z" id="Combined-Shape" fill="#000000" opacity="0.238234747"></path>
+            </g>
+            <g id="Shadow" transform="translate(5.000000, 225.000000)" fill="#848282">
+                <path d="M60,0 L60,1 L70,1 L70,2 L75,2 L75,3 L79,3 L79,4 L75,4 L75,5 L65,5 L65,6 L75,6 L75,7 L77,7 L77,8 L73,8 L73,9 L61,9 L61,10 L52,10 L52,11 L54,11 L54,12 L56,12 L56,13 L52,13 L52,14 L48,14 L48,15 L36,15 L36,14 L32,14 L32,13 L26,13 L26,11 L28,11 L28,10 L19,10 L19,9 L7,9 L7,8 L3,8 L3,7 L5,7 L5,6 L15,6 L15,5 L5,5 L5,4 L0,4 L0,3 L5,3 L5,2 L10,2 L10,1 L20,1 L20,0 L60,0 Z" id="Combined-Shape"></path>
+            </g>
+            <g id="Hat" transform="translate(12.000000, 0.000000)" fill="#2D2D2D">
+                <path d="M1,32 L1,30 L2,30 L2,29 L12,29 L12,23 L11,23 L11,3 L13,3 L13,2 L11,2 L11,0 L22,0 L22,1 L29,1 L29,2 L32,2 L32,3 L35,3 L35,16 L36,16 L36,29 L45,29 L45,31 L46,31 L46,32 L47,32 L47,34 L10,34 L10,33 L4,33 L4,32 L3,32 L3,33 L2,33 L2,36 L1,36 L1,35 L0,35 L0,32 L1,32 Z" id="Combined-Shape"></path>
+            </g>
+            <g id="Face" transform="translate(17.000000, 44.000000)">
+                <g id="Left-Eye" transform="translate(0.000000, 1.000000)">
+                    <path d="M0,3 L0,2 L1,2 L1,1 L2,1 L2,0 L5,0 L5,1 L6,1 L6,2 L7,2 L7,3 L6,3 L6,4 L5,4 L5,5 L2,5 L2,4 L1,4 L1,3 L0,3 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                    <rect id="Rectangle-Copy-125" fill="#A7A7A7" x="3" y="1" width="1" height="1"></rect>
+                </g>
+                <g id="Right-Eye" transform="translate(21.000000, 0.000000)">
+                    <path d="M1,1 L2,1 L2,0 L5,0 L5,1 L6,1 L6,2 L7,2 L7,3 L6,3 L6,4 L5,4 L5,5 L2,5 L2,4 L1,4 L1,3 L0,3 L0,2 L1,2 L1,1 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                    <rect id="Rectangle-Copy-124" fill="#A7A7A7" x="3" y="1" width="1" height="1"></rect>
+                </g>
+                <g id="Nose" transform="translate(0.000000, 7.000000)">
+                    <rect id="Rectangle-Copy-49" fill="#EA6609" x="11" y="0" width="4" height="1"></rect>
+                    <rect id="Rectangle-Copy-59" fill="#EA6609" x="6" y="1" width="10" height="1"></rect>
+                    <rect id="Rectangle-Copy-60" fill="#EA6609" x="3" y="2" width="13" height="1"></rect>
+                    <rect id="Rectangle-Copy-61" fill="#EA6609" x="0" y="3" width="17" height="1"></rect>
+                    <rect id="Rectangle-Copy-62" fill="#EA6609" x="7" y="4" width="9" height="1"></rect>
+                    <rect id="Rectangle-Copy-63" fill="#EA6609" x="12" y="5" width="3" height="1"></rect>
+                    <rect id="Rectangle-Copy-118" fill="#B74F05" x="15" y="4" width="1" height="1"></rect>
+                    <rect id="Rectangle-Copy-120" fill="#B74F05" x="12" y="5" width="3" height="1"></rect>
+                    <rect id="Rectangle-Copy-121" fill="#B74F05" x="7" y="4" width="5" height="1"></rect>
+                    <rect id="Rectangle-Copy-123" fill="#FB8C3E" x="12" y="1" width="2" height="1"></rect>
+                    <rect id="Rectangle-Copy-122" fill="#B74F05" x="4" y="3" width="3" height="1"></rect>
+                    <rect id="Rectangle-Copy-119" fill="#B74F05" x="16" y="3" width="1" height="1"></rect>
+                </g>
+                <g transform="translate(6.000000, 15.000000)" fill="#2D2D2D" id="Combined-Shape">
+                    <path d="M17,2 L17,1 L18,1 L18,0 L19,0 L19,1 L20,1 L20,2 L19,2 L19,3 L18,3 L18,2 L17,2 Z"></path>
+                    <path d="M14,5 L14,4 L15,4 L15,3 L16,3 L16,4 L17,4 L17,5 L16,5 L16,6 L15,6 L15,5 L14,5 Z"></path>
+                    <path d="M10,7 L10,6 L11,6 L11,5 L12,5 L12,6 L13,6 L13,7 L12,7 L12,8 L11,8 L11,7 L10,7 Z"></path>
+                    <path d="M5,7 L5,6 L6,6 L6,5 L7,5 L7,6 L8,6 L8,7 L7,7 L7,8 L6,8 L6,7 L5,7 Z"></path>
+                    <path d="M0,6 L0,5 L1,5 L1,4 L2,4 L2,5 L3,5 L3,6 L2,6 L2,7 L1,7 L1,6 L0,6 Z"></path>
+                </g>
+            </g>
+            <g id="Middle" transform="translate(3.000000, 68.000000)">
+                <path d="M84,47 L42.02,46.999 L82,47 L82,54 L42.039,53.999 L81,54 L81,59 L78.999,59 L79,62 L42.036,61.999 L78,62 L78,64 L75.999,64 L76,67 L42,67 L74,67 L74,69 L73,69 L73,70 L71,70 L71,72 L69,72 L69,73 L68,73 L68,75 L66,75 L66,77 L63,77 L63,78 L61,78 L61,80 L57,80 L57,82 L50,82 L50,83 L34,83 L34,82 L27,82 L27,80 L23,80 L23,78 L21,78 L21,77 L18,77 L18,75 L16,75 L16,73 L15,73 L15,72 L13,72 L13,70 L11,70 L11,69 L10,69 L10,67 L8,67 L8,64 L6,64 L6,62 L5,62 L5,59 L3,59 L3,54 L2,54 L2,47 L0,47 L0,41 L2,41 L2,34 L3,34 L3,29 L5,29 L5,26 L6,26 L6,24 L8,24 L8,21 L10,21 L10,19 L11,19 L11,18 L13,18 L13,16 L15,16 L15,15 L16,15 L16,13 L18,13 L18,11 L21,11 L21,10 L23,10 L23,8 L27,8 L27,6 L34,6 L34,5 L50,5 L49.999,6 L57,6 L57,8 L61,8 L61,10 L63,10 L62.999,11 L66,11 L66,13 L68,13 L68,15 L69,15 L68.999,16 L71,16 L71,18 L73,18 L72.999,19 L74,19 L74,21 L42,20.999 L42,21 L76,21 L75.999,24 L78,24 L78,26 L79,26 L78.999,29 L81,29 L81,34 L82,34 L82,41 L84,41 L84,47 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                <path d="M32,25 L32,24 L31,24 L31,23 L32,23 L32,22 L33,22 L33,21 L36,21 L36,22 L37,22 L37,23 L38,23 L38,24 L37,24 L37,25 L36,25 L36,26 L33,26 L33,25 L32,25 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                <path d="M31,36 L31,35 L30,35 L30,34 L31,34 L31,33 L32,33 L32,32 L35,32 L35,33 L36,33 L36,34 L37,34 L37,35 L36,35 L36,36 L35,36 L35,37 L32,37 L32,36 L31,36 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                <path d="M32,47 L32,46 L31,46 L31,45 L32,45 L32,44 L33,44 L33,43 L36,43 L36,44 L37,44 L37,45 L38,45 L38,46 L37,46 L37,47 L36,47 L36,48 L33,48 L33,47 L32,47 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                <path d="M35,61 L35,60 L34,60 L34,59 L35,59 L35,58 L36,58 L36,57 L39,57 L39,58 L40,58 L40,59 L41,59 L41,60 L40,60 L40,61 L39,61 L39,62 L36,62 L36,61 L35,61 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                <path d="M33.0005023,74 C41.1920037,74 48.778133,71.4080942 54.9835136,66.9996595 L75.0005023,67 L75.0005023,69 L74.0005023,69 L74.0005023,70 L72.0005023,70 L72.0005023,72 L70.0005023,72 L70.0005023,73 L69.0005023,73 L69.0005023,75 L67.0005023,75 L67.0005023,77 L64.0005023,77 L64.0005023,78 L62.0005023,78 L62.0005023,80 L58.0005023,80 L58.0005023,82 L51.0005023,82 L51.0005023,83 L35.0005023,83 L35.0005023,82 L28.0005023,82 L28.0005023,80 L24.0005023,80 L24.0005023,78 L22.0005023,78 L22.0005023,77 L19.0005023,77 L19.0005023,75 L17.0005023,75 L17.0005023,73 L16.0005023,73 L16.0005023,72 L14.0005023,72 L14.0005023,70 L12.0005023,70 L12.0005023,69 L11.0005023,69 L11.0005023,67 L9.00050228,67 L8.99979108,65.4627899 C15.5433111,70.7996461 23.8981654,74 33.0005023,74 Z M60.7138716,61.9995826 L79.0005023,62 L79.0005023,64 L76.9995023,64 L77.0005023,67 L54.9835136,66.9996595 C57.0575236,65.5262385 58.9772928,63.8498964 60.7138716,61.9995826 Z M7.31051836,64.0007374 L7.00050228,64 L6.99900354,63.7115709 C7.10230118,63.8085324 7.20614113,63.9049229 7.31051836,64.0007374 Z M66.4748723,54.0007481 L82.0005023,54 L82.0005023,59 L79.9995023,59 L80.0005023,62 L60.7138716,61.9995826 C62.96222,59.6039817 64.9034959,56.9167611 66.4748723,54.0007481 Z M69.3837616,47.0009584 L83.0005023,47 L83.0005023,54 L66.4748723,54.0007481 C67.6662631,51.7898768 68.6450203,49.4474861 69.3837616,47.0009584 Z M67.9252794,21.0000271 L77.0005023,21 L76.9995023,24 L79.0005023,24 L79.0005023,26 L80.0005023,26 L79.9995023,29 L82.0005023,29 L82.0005023,34 L83.0005023,34 L83.0005023,41 L85.0005023,41 L85.0005023,47 L69.3837616,47.0009584 C70.4352675,43.5186324 71.0005023,39.825325 71.0005023,36 C71.0005023,30.6729034 69.9043438,25.6018283 67.9252794,21.0000271 Z M58.6912907,8.00000114 L62.0005023,8 L62.0005023,10 L64.0005023,10 L63.9995023,11 L67.0005023,11 L67.0005023,13 L69.0005023,13 L69.0005023,15 L70.0005023,15 L69.9995023,16 L72.0005023,16 L72.0005023,18 L74.0005023,18 L73.9995023,19 L75.0005023,19 L75.0005023,21 L67.9252794,21.0000271 C65.7877099,16.0296637 62.6201455,11.6067536 58.6912907,8.00000114 Z M56.3272045,6.00004498 L58.0005023,6 L58.0012833,7.38180275 C57.4567436,6.90570301 56.898494,6.44489382 56.3272045,6.00004498 Z" id="Combined-Shape" fill="#000000" opacity="0.238234747"></path>
+                <g id="Scarf" transform="translate(16.000000, 0.000000)" fill="#126997">
+                    <path d="M12,48 L12,50 L11,50 L11,48 L12,48 Z M36,0 L36,3 L37,3 L37,5 L40,5 L40,6 L41,6 L41,7 L42,7 L42,9 L39,9 L39,10 L36,10 L36,11 L31,11 L31,12 L28,12 L28,13 L23,13 L23,14 L19,14 L19,15 L16,15 L16,16 L12,16 L12,19 L11,19 L11,26 L10,26 L10,30 L11,30 L11,38 L12,38 L12,43 L11,43 L11,48 L10,48 L10,43 L9,43 L9,49 L8,49 L8,43 L7,43 L7,49 L6,49 L6,43 L5,43 L5,48 L4,48 L4,38 L3,38 L3,30 L2,30 L2,25 L3,25 L3,17 L4,17 L4,16 L2,16 L2,15 L0,15 L0,11 L2,11 L2,9 L3,9 L3,7 L14,7 L14,6 L18,6 L18,5 L23,5 L23,4 L26,4 L26,3 L29,3 L29,2 L32,2 L32,0 L36,0 Z M13,43 L13,46 L14,46 L14,49 L13,49 L13,47 L12,47 L12,43 L13,43 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+            <g id="Bottom" transform="translate(0.000000, 144.000000)">
+                <path d="M89,44.7813945 L86.8717391,44.7813945 L86.8717391,52.21279 L85.8076086,52.21279 L85.8076086,57.5209297 L83.679,57.52 L83.6793477,60.7058135 L82.6152173,60.7058135 L82.6152173,62.8290693 L80.486,62.829 L80.4869563,66.0139531 L78.3586954,66.0139531 L78.3586954,68.137209 L77.294,68.137 L77.294565,69.1988369 L75.166304,69.1988369 L75.166304,71.3220928 L73.038,71.322 L73.0380431,72.3837207 L71.9739127,72.3837207 L71.9739127,74.5069766 L69.8456518,74.5069766 L69.8456518,76.6302324 L66.653,76.63 L66.6532604,77.6918604 L64.5249995,77.6918604 L64.5249995,79.8151162 L60.2684776,79.8151162 L60.2684776,81.9383721 L52.819,81.938 L52.8195644,83 L44.3065208,83 L44.306,82.806 L36.1804356,82.8069785 L36.18,81.745 L28.7315224,81.7453506 L28.7315224,79.6220947 L24.4750005,79.6220947 L24.4750005,77.4988389 L22.3467396,77.4988389 L22.346,76.437 L19.1543482,76.437211 L19.1543482,74.3139551 L17.0260873,74.3139551 L17.0260873,72.1906992 L15.9619569,72.1906992 L15.961,71.129 L13.833696,71.1290713 L13.833696,69.0058154 L11.705435,69.0058154 L11.705,67.944 L10.6413046,67.9441875 L10.6413046,65.8209317 L8.51304366,65.8209317 L8.513,62.636 L6.38478275,62.6360479 L6.38478275,60.512792 L5.32065229,60.512792 L5.32,57.327 L3.19239137,57.3279082 L3.19239137,52.0197686 L2.12826092,52.0197686 L2.12826092,44.5883731 L0,44.5883731 L0,38.2186055 L2.12826092,38.2186055 L2.12826092,30.78721 L3.19239137,30.78721 L3.19239137,25.4790703 L5.32,25.479 L5.32065229,22.2941865 L6.38478275,22.2941865 L6.38478275,20.1709307 L8.513,20.17 L8.51304366,16.9860469 L10.6413046,16.9860469 L10.6413046,14.862791 L11.705,14.862 L11.705435,13.8011631 L13.833696,13.8011631 L13.833696,11.6779072 L15.961,11.677 L15.9619569,10.6162793 L17.0260873,10.6162793 L17.0260873,8.49302344 L19.1543482,8.49302344 L19.1543482,6.36976758 L22.346,6.369 L22.3467396,5.30813965 L24.4750005,5.30813965 L24.4750005,3.18488379 L28.7315224,3.18488379 L28.7315224,1.06162793 L36.18,1.061 L36.1804356,0 L44.6934792,0 L44.693,0.193 L52.8195644,0.193021461 L52.819,1.254 L60.2684776,1.25464939 L60.2684776,3.37790525 L64.5249995,3.37790525 L64.5249995,5.50116111 L66.6532604,5.50116111 L66.653,6.562 L69.8456518,6.56278904 L69.8456518,8.6860449 L71.9739127,8.6860449 L71.9739127,10.8093008 L73.0380431,10.8093008 L73.038,11.87 L75.166304,11.8709287 L75.166304,13.9941846 L77.294565,13.9941846 L77.294,15.055 L78.3586954,15.0558125 L78.3586954,17.1790683 L80.4869563,17.1790683 L80.486,20.363 L82.6152173,20.3639521 L82.6152173,22.487208 L83.6793477,22.487208 L83.679,25.672 L85.8076086,25.6720918 L85.8076086,30.9802314 L86.8717391,30.9802314 L86.8717391,38.4116269 L89,38.4116269 L89,44.7813945 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                <path d="M47.4482759,3 L47.448,2 L43.586,2 L43.5862069,3 L36.8275862,3 L36.8275862,4 L32,4 L32,3 L34.8965517,3 L34.8965517,2 L40.689,1.999 L40.6896552,1 L48.4137931,1 L48.413,1.999 L56.137931,2 L56.137931,3 L60,3 L60,4 L55.1724138,4 L55.1724138,3 L47.4482759,3 Z" id="Combined-Shape" fill="#E1E1E1"></path>
+                <path d="M69.343979,7.00053444 L70.8388609,7.00162351 L70.8388609,9.11268952 L72.9678763,9.11268952 L72.9678763,11.2237555 L74.0323841,11.2237555 L74.0314464,12.2785122 L76.1613995,12.2792885 L76.1613995,14.3903546 L78.290415,14.3903546 L78.2894464,15.4455122 L79.3549227,15.4458876 L79.3549227,17.5569536 L81.4839382,17.5569536 L81.4834464,20.7235122 L83.6129536,20.7235526 L83.6129536,22.8346186 L84.6774614,22.8346186 L84.6774464,26.0005122 L86.8064768,26.0012176 L86.8064768,31.2788827 L87.8709845,31.2788827 L87.8709845,38.6676137 L90,38.6676137 L90,45.0008118 L87.8709845,45.0008118 L87.8709845,52.3895428 L86.8064768,52.3895428 L86.8064768,57.6672078 L84.6774464,57.6665122 L84.6774614,60.8338069 L83.6129536,60.8338069 L83.6129536,62.9448729 L81.4834464,62.9445122 L81.4839382,66.1114719 L79.3549227,66.1114719 L79.3549227,68.2225379 L78.2894464,68.2225122 L78.290415,69.2780709 L76.1613995,69.2780709 L76.1613995,71.3891369 L74.0314464,71.3885122 L74.0323841,72.4446699 L72.9678763,72.4446699 L72.9678763,74.5557359 L70.8388609,74.5557359 L70.8388609,76.666802 L67.6444464,76.6665122 L67.6453377,77.722335 L65.5163222,77.722335 L65.5163222,79.833401 L61.2582913,79.833401 L61.2582913,81.944467 L53.8064464,81.9435122 L53.8067372,83 L45.2906754,83 L45.2904464,82.8075122 L37.1617092,82.8080867 L37.1614464,81.7525122 L29.7101551,81.7525537 L29.7101551,79.6414877 L25.4521241,79.6414877 L25.4521241,77.5304217 L23.3231087,77.5304217 L23.3224464,76.4745122 L20.1295855,76.4748887 L20.1295855,74.3638226 L18.00057,74.3638226 L17.998839,72.7157211 C20.6406418,73.1683581 23.3573083,73.4042456 26.1295376,73.4042456 C52.3183169,73.4042456 73.5485173,52.3530343 73.5485173,26.385049 C73.5485173,19.4738998 72.0447587,12.9110111 69.343979,7.00053444 Z" id="Combined-Shape" fill="#000000" opacity="0.238234747"></path>
+            </g>
+            <g id="Staff" transform="translate(71.000000, 50.000000)" fill="#B15F1B">
+                <path d="M3,0 L3,22 L4,22 L4,54 L5,54 L5,90 L4,90 L4,119 L3,119 L3,151 L2,151 L2,185 L0,185 L0,149 L1,149 L1,115 L2,115 L2,83 L3,83 L3,58 L2,58 L2,36 L1,36 L1,0 L3,0 Z" id="Combined-Shape"></path>
+            </g>
         </g>
     </g>
 </svg>
