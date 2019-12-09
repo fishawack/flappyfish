@@ -9,7 +9,7 @@
         	"
     	>
         	<h2>Welcome to</h2>
-        	<h1>Christmas jumper</h1>
+        	<h1 data-text="Christmas jumper">Christmas jumper</h1>
         	<p>Survive for <span class="ut-highlight ut-padding">15 jumps</span> to unlock todays digital highlight</p>
         	<p>Press space bar to begin</p>
         </div>
@@ -65,7 +65,7 @@
 
 				    	<button v-on:click.stop="reset" class="button ut-fullWidth ut-borderBox ut-marginTop-2">Try Again</button>
 
-				    	<a class="button button--alt ut-fullWidth ut-borderBox ut-marginTop-2" target="_blank" :href="link">Bah humbug! just show me</a>
+				    	<a style="font-size: 0.5em;" class="button button--alt ut-fullWidth ut-borderBox ut-marginTop-2" target="_blank" :href="link">Bah humbug!<span class="ut-block">just show me</span></a>
 				    </div>
 				    <div v-else>
 				    	<h3>You did it!</h3>

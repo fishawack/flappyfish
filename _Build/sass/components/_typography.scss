@@ -12,3 +12,25 @@ button{
 a, button{
 	line-height: 1.25em;
 }
+
+h2, h3{
+	text-shadow: 0 get-vw(7.5px) black;
+}
+
+h1{
+	position: relative;
+	display: inline-block;
+	background: linear-gradient($color1 0%, $color0 62.5%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	&:after {
+		background: none;
+		content: attr(data-text);
+		left: 0;
+		top: 0;
+		z-index: -1;
+		position: absolute;
+		text-shadow: 0 get-vw(7.5px) black;
+	}
+}
